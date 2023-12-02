@@ -5,6 +5,12 @@ def part_one():
     # cubes = 12 red cubes, 13 green cubes, and 14 blue cubes
     red, green, blue = 12, 13, 14
     colors = 'red', 'green', 'blue'
+    # print('colors = ', colors)
+    # print('colors[1] = ', colors[1])
+    # print('colors[:2] = ', colors[:2])
+    # print('112')
+    # print(float('111')/2)
+    # print(int('112'))
     sum = 0 
     for line in input.split('\n'):
         # print(line)

@@ -1,6 +1,6 @@
 import re
 input = open('input.txt').read().strip()
-import numpy as np
+# import numpy as np
 
 # part_one
 def part_one():
@@ -10,12 +10,15 @@ def part_one():
         for c in line:
             if c.isdigit():
                 digits.append(c)
+        print(digits)
         sum += int(digits[0]+digits[-1])
     print(sum)
 
 part_one()
 
+
 # part two:
+input = open('input_short.txt').read().strip()
 digit_names = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
 
